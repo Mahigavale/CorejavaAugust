@@ -1,0 +1,19 @@
+package core;
+
+public class Whileex {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int num1=10;
+		
+		while(num1>5)
+		{
+			System.out.println(num1);
+			num--;
+		}
+		
+	}
+
+}

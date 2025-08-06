@@ -1,0 +1,17 @@
+package core;
+
+public class Whileex {
+
+	public static void main(String[] args) {
+		
+		
+		
+		int num1=10;
+		
+		while(num1<20)//true
+		{
+			System.out.println("hi");
+		}
+	}
+
+}

@@ -1,0 +1,20 @@
+package core;
+
+public class Dowhile {
+
+	public static void main(String[] args) {
+		
+		
+		
+		//ICBO
+		int i=21; //intialization
+		do	 //condition
+		{
+			 System.out.println(i); //block
+			 i++;//operation
+		}
+		while(i<=20);
+
+	}
+
+}

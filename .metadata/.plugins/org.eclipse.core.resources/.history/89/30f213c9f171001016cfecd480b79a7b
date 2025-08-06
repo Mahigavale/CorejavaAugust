@@ -1,0 +1,21 @@
+package core;
+
+public class Forsecond {
+
+	public static void main(String[] args) {
+		
+		int money=1;
+		
+		while(money<50)
+		{
+			money++;
+		}
+		
+		for(int i=1;i<50;i++)
+		{
+			
+		}
+
+	}
+
+}

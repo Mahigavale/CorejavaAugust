@@ -1,0 +1,16 @@
+package core;
+
+public class First {
+
+	public static void main(String[] args) {
+		
+		double percentage=72.20;
+		
+		if(percentage>35)
+		{
+			System.out.println("you have passed the test.");
+		}
+		
+	}
+
+}

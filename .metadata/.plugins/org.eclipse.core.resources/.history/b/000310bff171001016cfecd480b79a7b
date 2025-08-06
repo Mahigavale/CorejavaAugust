@@ -1,0 +1,13 @@
+package core;
+
+public class Forsecond {
+
+	public static void main(String[] args) {
+		
+		int money=1;
+		
+		for()
+
+	}
+
+}

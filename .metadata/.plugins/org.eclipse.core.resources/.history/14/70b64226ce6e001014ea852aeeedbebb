@@ -1,0 +1,15 @@
+package core;
+
+public class Array {
+
+	public static void main(String[] args) {
+
+		
+	int num2=1000;
+	
+	for( int num=1 ; num<num2;num++)
+	{
+		System.out.println(num);
+	}
+	}
+}

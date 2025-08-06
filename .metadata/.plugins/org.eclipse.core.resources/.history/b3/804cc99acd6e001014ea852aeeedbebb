@@ -1,0 +1,21 @@
+package core;
+
+public class Array {
+
+	public static void main(String[] args) {
+
+		
+	//	int num=1;
+		int num2=5;
+	
+		
+		//for(initialization,comparison,operation)
+		
+	while(10<20)
+	{
+		System.out.println("hiii");
+	}
+		
+	}
+
+}

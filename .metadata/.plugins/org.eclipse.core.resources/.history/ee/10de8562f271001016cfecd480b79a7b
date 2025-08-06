@@ -1,0 +1,24 @@
+package core;
+
+public class Forsecond {
+
+	public static void main(String[] args) {
+	
+		
+		
+		
+		for(int a=1;a<5;a++)
+		{
+			System.out.println(a);
+		}
+		for(int a=1;a<5;a++)
+		{
+			System.out.println(a);
+		}
+		for(int a=1;a<5;a++)
+		{
+			System.out.println(a);
+		}
+
+}
+}

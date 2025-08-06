@@ -1,0 +1,19 @@
+package core;
+
+public class Dowhile {
+
+	public static void main(String[] args) {
+		
+		
+		
+		
+		int i=10; //intialization
+		while(i<20)	 //condition
+		{
+			 System.out.println(i); //block
+			 i++;//operation
+		}
+
+	}
+
+}

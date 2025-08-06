@@ -1,0 +1,17 @@
+package core;
+
+public class Whileex {
+
+	public static void main(String[] args) {
+		
+		
+		
+		boolean status=false; //
+		while(status==false)
+		{
+			System.out.println(status);
+		}
+		System.out.println("end");
+	}
+
+}

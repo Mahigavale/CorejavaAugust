@@ -1,0 +1,19 @@
+package core;
+
+public class Array {
+
+	public static void main(String[] args) {
+
+	
+//		for(int num=1;num<=100;num++)
+//		{
+//			System.out.println(num*2);
+//		}
+		
+		
+		for(int num=100;num>=1)
+		{
+			System.out.println(num);
+		}
+	}
+}

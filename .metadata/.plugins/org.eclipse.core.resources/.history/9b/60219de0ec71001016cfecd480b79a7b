@@ -1,0 +1,12 @@
+package core;
+
+public class Whileex {
+
+	public static void main(String[] args) {
+		
+		
+		
+		boolean status=true;
+	}
+
+}
