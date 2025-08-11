@@ -13,6 +13,8 @@ class Room
 {
 	int fan=1;
 	
+	int fan2=4;
+	
 }
 
 class ROom2
