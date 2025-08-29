@@ -1,0 +1,16 @@
+package twod;
+
+public class First {
+
+	public static void main(String[] args) {
+		// 45 67 43 21
+		// 32 45 11 12
+		// 11 56 99 76 =>99(2,2)
+		
+		int[][] arr=new int[3][3];
+		// new int[row][columns] ;;;;;
+		
+		arr[0][0]=1;
+	}
+
+}

@@ -1,0 +1,11 @@
+package core3;
+
+public class Array14 {
+
+	public static void main(String[] args) {
+		
+		int[] arr=new int[];
+
+	}
+
+}

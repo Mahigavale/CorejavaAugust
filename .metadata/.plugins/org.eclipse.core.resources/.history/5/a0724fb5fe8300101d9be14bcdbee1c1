@@ -1,0 +1,10 @@
+package core3;
+
+public class Array16 {
+
+	public static void main(String[] args) {
+		
+		int[] arr= {10,20,30,40};
+	}
+
+}
