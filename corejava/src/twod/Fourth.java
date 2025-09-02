@@ -4,16 +4,16 @@ public class Fourth {
 
 	public static void main(String[] args) {
 		
-		int[][] arr=new int[3][3];
+		int[][] arr=new int[5][5];
 		
 		  
 		int num=1;
 		
 		
 		
-		for(int i=0;i<3;i++)
+		for(int i=0;i<5;i++)
 		{
-			for(int j=0;j<3;j++)
+			for(int j=0;j<5;j++)
 			{
 				arr[i][j]=num;
 				num++;
@@ -23,9 +23,9 @@ public class Fourth {
 		
 		
 		
-		for(int i=0;i<3;i++)
+		for(int i=0;i<5;i++)
 		{
-			for(int j=0;j<3;j++)
+			for(int j=0;j<5;j++)
 			{
 				System.out.print(arr[i][j]+" ");
 			}
@@ -37,9 +37,9 @@ public class Fourth {
 		
 		
 		int sum=0;
-		for(int i=0;i<3;i++)
+		for(int i=0;i<5;i++)
 		{
-			for(int j=0;j<3;j++)
+			for(int j=0;j<5;j++)
 			{
 				if(i==j)
 				{
@@ -47,7 +47,7 @@ public class Fourth {
 					System.out.print(arr[i][j]);
 				}
 				else {
-				System.out.print("  ");
+				System.out.print(" * ");
 				}
 			}
 			System.out.println();
@@ -57,9 +57,9 @@ public class Fourth {
 		System.out.println("******************************************");
 		
 		
-		for(int i=0;i<3;i++)
+		for(int i=0;i<5;i++)
 		{
-			for(int j=0;j<3;j++)
+			for(int j=0;j<5;j++)
 			{
 				if(arr[i][j]%2==0)
 				{
