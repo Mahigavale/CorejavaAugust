@@ -24,6 +24,7 @@ class Super_cars
 	
 	public Super_cars(String hp)
 	{
+		
 		this.setHp(hp);
 		System.out.println("Parent class accessed.");
 	}
