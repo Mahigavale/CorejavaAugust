@@ -33,11 +33,10 @@ class Galaxy
 	 }
 }
 
-class Milky_way  extends Universe,Galaxy
+class Milky_way  extends Universe
 {
 	public Milky_way()
 	{
-		super();
 		super();
 	}
 }
