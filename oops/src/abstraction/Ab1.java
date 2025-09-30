@@ -32,7 +32,7 @@ public class Ab1 {
 		 System.out.println("Object.. hehe");
 	 }
 	 
-	 abstract public void race();
+	  abstract void race();
    
 	 abstract public String whatyoueat(String n);
 	
@@ -52,8 +52,8 @@ public class Ab1 {
 		 super();
 		 System.out.println("Tiger hehe");
 	 }
-	 public void race()
-	 { 
+	    void race()
+	 {
 		 
 		 System.out.println("Race implemented..");
 	 }
