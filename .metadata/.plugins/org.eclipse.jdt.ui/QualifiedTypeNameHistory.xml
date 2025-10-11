@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="jakarta.persistence.Query"/>
-    <fullyQualifiedTypeName name="com.StudentGrader.Repository.Questionrepo"/>
     <fullyQualifiedTypeName name="com.StudentGrader.Service.QuestionService"/>
     <fullyQualifiedTypeName name="com.StudentGrader.Entity.Question"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
@@ -56,8 +54,10 @@
     <fullyQualifiedTypeName name="oops_2.I_animal"/>
     <fullyQualifiedTypeName name="oops_2.Cricket"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
+    <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
 </qualifiedTypeNameHistroy>

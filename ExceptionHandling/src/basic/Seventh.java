@@ -5,6 +5,10 @@ public class Seventh {
 	public static void main(String[] args) {
 
 		
+		 Animal animal=new Animal();
+		 
+		 Animal animal2=new Animal();
+			
 		 Animal.getage(31);
 		
 		 
@@ -15,7 +19,21 @@ public class Seventh {
 
 class Animal
 {
+	static
+	{
+		System.out.println("I am static");
+	}
 	
+	public Animal()
+	{ 
+	System.out.println("hiiiii");
+	
+	}
+	
+	public Animal(int i)
+	{
+		
+	}
 	 static public void getage(int age)
 	{
 		 
