@@ -1,7 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.StudentGrader.Entity.Admin"/>
-    <fullyQualifiedTypeName name="com.StudentGrader.Repository.AdminRepository"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.LoginRequest"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.LoginResponse"/>
     <fullyQualifiedTypeName name="com.StudentGrader.Repository.Studentrepo"/>
@@ -51,7 +49,6 @@
     <fullyQualifiedTypeName name="oops_2.Cricket"/>
     <fullyQualifiedTypeName name="java.lang.FunctionalInterface"/>
     <fullyQualifiedTypeName name="java.lang.ArithmeticException"/>
-    <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.InputMismatchException"/>
     <fullyQualifiedTypeName name="java.lang.ArrayIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.lang.RuntimeException"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.reflect.Array"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.Error"/>
+    <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.util.List"/>
 </qualifiedTypeNameHistroy>

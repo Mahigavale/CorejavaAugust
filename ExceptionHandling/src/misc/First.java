@@ -6,16 +6,16 @@ public class First {
 		
 		try {
 		
-		Student.purchaseBag(1409,9);
+		Student.purchaseBag(1501,9);
 		
 		}
 		catch(  Exception | NotFoundException ex)
 		{
 			System.out.println(ex.getMessage());
 		}
-		
+		finally
 		{
-			
+			 System.out.println("THE END");
 		}
 //		catch( NotFoundException ex)
 //		{
@@ -56,6 +56,7 @@ class Student
 	{
 		 if(price >1500.00)
 		 {
+			// System.exit();
 			 throw new ExpensiveException("Please reduce the price..");
 		 }
 		 System.out.println("Purchase approved...");
