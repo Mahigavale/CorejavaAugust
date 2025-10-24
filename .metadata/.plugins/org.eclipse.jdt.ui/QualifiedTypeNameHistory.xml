@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.StudentGrader.DTO.LoginRequest"/>
-    <fullyQualifiedTypeName name="com.StudentGrader.DTO.LoginResponse"/>
-    <fullyQualifiedTypeName name="com.StudentGrader.Repository.Studentrepo"/>
     <fullyQualifiedTypeName name="com.StudentGrader.Entity.Student"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.StudentDTO"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.StudentAnswerDTO"/>
@@ -60,4 +57,7 @@
     <fullyQualifiedTypeName name="java.lang.Error"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
     <fullyQualifiedTypeName name="java.util.List"/>
+    <fullyQualifiedTypeName name="functionalifs.Abc"/>
+    <fullyQualifiedTypeName name="functionalifs.Abc.cde"/>
+    <fullyQualifiedTypeName name="functionalifs.Abc.fgh"/>
 </qualifiedTypeNameHistroy>
