@@ -3152,3 +3152,16 @@
 2025-10-24 15:57:40,888 [Start Help Server] INFO  o.e.jetty.server.AbstractConnector - Started ServerConnector@6b8aa57b{HTTP/1.1, (http/1.1)}{127.0.0.1:50672}
 2025-10-24 15:57:40,905 [Start Help Server] INFO  org.eclipse.jetty.server.Server - Started oejs.Server@533e87d5{STARTING}[12.0.21,sto=0] @10480ms
 2025-10-24 15:57:41,562 [Worker-4: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-24 18:29:52,727 [Stop Help Server] INFO  org.eclipse.jetty.server.Server - Stopped oejs.Server@533e87d5{STOPPING}[12.0.21,sto=0]
+2025-10-24 18:29:52,732 [Stop Help Server] INFO  o.e.jetty.server.AbstractConnector - Stopped ServerConnector@6b8aa57b{HTTP/1.1, (http/1.1)}{127.0.0.1:0}
+2025-10-27 10:17:32,505 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is out-of-date. Trying to update.
+2025-10-27 16:45:09,869 [Worker-1: Loading available Gradle versions] INFO  o.e.b.c.i.u.g.PublishedGradleVersions - Gradle version information cache is up-to-date. Trying to read.
+2025-10-27 16:47:43,241 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-27 16:47:43,266 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-27 16:47:43,276 [Worker-5: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Downloads\StudentGrader\StudentGrader\src\test\resources
+2025-10-27 16:47:44,997 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-27 16:47:45,011 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-27 16:47:45,015 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Downloads\axiosdemo\axiosdemo\src\test\resources
+2025-10-27 16:47:46,999 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 1 resource from src\main\resources to target\classes
+2025-10-27 16:47:47,010 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - Copying 0 resource from src\main\resources to target\classes
+2025-10-27 16:47:47,013 [Worker-15: Building] INFO  o.a.m.s.f.DefaultMavenResourcesFiltering - skip non existing resourceDirectory C:\Users\DELL\Downloads\demo (1)\demo\src\test\resources

@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="com.StudentGrader.Entity.Student"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.StudentDTO"/>
     <fullyQualifiedTypeName name="com.StudentGrader.DTO.StudentAnswerDTO"/>
     <fullyQualifiedTypeName name="java.util.stream.Collectors"/>
@@ -60,4 +59,5 @@
     <fullyQualifiedTypeName name="functionalifs.Abc"/>
     <fullyQualifiedTypeName name="functionalifs.Abc.cde"/>
     <fullyQualifiedTypeName name="functionalifs.Abc.fgh"/>
+    <fullyQualifiedTypeName name="java.util.Objects"/>
 </qualifiedTypeNameHistroy>
