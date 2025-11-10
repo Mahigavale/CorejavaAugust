@@ -18,6 +18,7 @@ public class First {
 		 * ArrayList=> resizeable array.
 		 */
 		
+		System.out.println(list.size());
 		list.add(7);
 	    list.add(7);
 	    list.add(7);
@@ -30,6 +31,7 @@ public class First {
 	    list.add(null);
 	    list.add(null);
 	    list.add(null);
+	    System.out.println(list.size());
 	    
 		
 		//[]=> dynamic 
