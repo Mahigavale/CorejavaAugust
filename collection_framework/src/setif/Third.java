@@ -18,6 +18,8 @@ public class Third {
 		set.add(str2);
 		set.add(str);
 		
+		
+		
 		System.out.println(set.size());
 	}
 
