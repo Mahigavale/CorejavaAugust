@@ -15,7 +15,7 @@ public class Stack_1 {
 		names.push("S2");
 		names.push(null);
 		System.out.println(names.size());
-		//System.out.println(names.pop());
+		System.out.println(names.pop());
 //	
 //		System.out.println(names.get(2));
 //		System.out.println(names);

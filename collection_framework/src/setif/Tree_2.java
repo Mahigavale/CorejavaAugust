@@ -21,7 +21,7 @@ public class Tree_2 {
 	 System.out.println(cars.first());
 	 System.out.println(cars.last());
 	 
-	 
+	 cars.ge
 		 
 		// cars.add(null);
 		 System.out.println(cars.size());
