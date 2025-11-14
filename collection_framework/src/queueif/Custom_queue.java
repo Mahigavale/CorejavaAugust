@@ -15,7 +15,7 @@ public class Custom_queue {
 		qu.add(new Bag("Blue",790.90));
 		qu.add(new Bag("Blue",500.90));
 		
-	
+	    qu.add(null);
 		System.out.println(qu.poll());
 		System.out.println(qu.remove());
 		System.out.println(qu.remove());
