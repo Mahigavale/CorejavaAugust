@@ -30,7 +30,7 @@ public class Custome_56 {
 		
 		
 		list.stream()
-		.sorted(new TurnComparator())
+		.sorted()
 		.distinct()
 		.forEach((i)->{
 			System.out.println(i.turnover+i.name+"  "+i.dept);
@@ -41,8 +41,10 @@ public class Custome_56 {
 		
 		System.out.println(business4.dept.equals(business5.dept));
 		
-		System.out.println(business4.dept.length());
-		System.out.println(business5.dept.length());
+		System.out.println(business4.dept.hashCode());
+		System.out.println(business5.dept.hashCode());
+		
+	//	System.out.println();
 		
 		
 		
@@ -83,16 +85,15 @@ class  Business implements Comparable<Business>
 	public boolean equals(Object o) {
 		
 		
-	    if (this == o) return true;
-	    if (o == null || getClass() != o.getClass()) return false;
 	    Business b = (Business) o;
-	    return Objects.equals(this.dept, b.dept);
+	    
+	    return  this.dept.equals(b.dept);
 	}
 
 	@Override
 	public int hashCode() {
 		
-	    return Objects.hash(dept);
+	    return  dept.hashCode();
 	}
 
 	@Override
