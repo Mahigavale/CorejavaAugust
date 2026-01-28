@@ -15,8 +15,8 @@ public class PaymentServiceApplication {
 		 
 	ApplicationContext context=SpringApplication.run(PaymentServiceApplication.class, args);
 	
-	     String[] arr=context.getBeanDefinitionNames();
-	     System.out.println("Total Beans Size:"+arr.length);
+//	     String[] arr=context.getBeanDefinitionNames();
+//	     System.out.println("Total Beans Size:"+arr.length);
 	     
 //	     System.out.println("*************************************");
 //	     for(String s :arr)
@@ -28,6 +28,9 @@ public class PaymentServiceApplication {
        MakePayment pay=context.getBean(MakePayment.class);
        
        pay.DoTransaction();
+       
+       MakePayment pay2=context.getBean(MakePayment.class);
+       System.out.println(pay==pay2);
        
 //       System.out.println("Creating the Objet of GooglePay");
 //       
