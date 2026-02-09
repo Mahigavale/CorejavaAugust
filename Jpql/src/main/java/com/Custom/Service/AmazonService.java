@@ -2,11 +2,13 @@ package com.Custom.Service;
 
 import java.util.List;
 
-
+import org.springframework.context.annotation.Profile;
 import org.springframework.stereotype.Service;
 
 import com.Custom.Entity.AmazonOrder;
 import com.Custom.Repository.OrderRepo;
+
+
 
 @Service
 public class AmazonService {
@@ -37,6 +39,7 @@ public class AmazonService {
 	
 	public  String delete(int id)
 	{
+		
 		AmazonOrder order=orderr.findById(id).get();
 		
 		System.out.println(order.getOrderType()+"Is being deleted.....");
@@ -48,6 +51,20 @@ public class AmazonService {
 	
 	public List<AmazonOrder> getbyType(String type)
 	{
-		return orderr.getbytype(type);
+		
+		
+		List<AmazonOrder> order= orderr.getbytype(type);
+		
+		order.stream().forEach(System.out::println);
+		
+		return order;
+	}
+	
+	
+
+	public int updateprice(double price, int id)
+	{
+		int n=orderr.updatePrice(price, id);
+		return n;
 	}
 }
