@@ -49,6 +49,14 @@ public class UserEntity {
 	public void setUserRoles(List<String> userRoles) {
 		this.userRoles = userRoles;
 	}
+
+	@Override
+	public String toString() {
+		
+		
+		userRoles.stream().forEach(System.out::println);
+		return "UserEntity [userId=" + userId + ", userName=" + userName; 
+	}
 	
 	
 	
